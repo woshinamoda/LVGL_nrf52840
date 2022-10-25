@@ -23,4 +23,5 @@
 .\_build\app_util_platform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\_build\app_util_platform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\_build\app_util_platform.o: ..\..\..\..\..\..\components\libraries\util\sdk_errors.h
-.\_build\app_util_platform.o: ..\..\..\..\..\
+.\_build\app_util_platform.o: ..\..\..\..\..\..\components\libraries\util\nordic_common.h
+.\_build\app_util_platform.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h

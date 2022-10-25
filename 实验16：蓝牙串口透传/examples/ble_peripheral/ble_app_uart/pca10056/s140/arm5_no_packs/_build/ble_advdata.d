@@ -35,4 +35,5 @@
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\libraries\util\app_util.h
 .\_build\ble_advdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
-.\_build\ble_advdata.o: .
+.\_build\ble_advdata.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h
+.\_build\ble_advdata.o: ..\..\..\..\..\..\components\ble\common\ble_srv_common.h

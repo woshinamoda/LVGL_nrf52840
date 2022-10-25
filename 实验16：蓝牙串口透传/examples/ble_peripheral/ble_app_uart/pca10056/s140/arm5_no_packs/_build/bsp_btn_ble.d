@@ -58,4 +58,5 @@
 .\_build\bsp_btn_ble.o: ..\..\..\..\..\..\components\boards\pca10056.h
 .\_build\bsp_btn_ble.o: ..\..\..\..\..\..\components\libraries\button\app_button.h
 .\_build\bsp_btn_ble.o: ..\..\..\..\..\..\components\softdevice\common\nrf_sdh_ble.h
-.\_build\bsp_btn_ble.o: ..\..\..\..\..\..\components\libraries\experimenta
+.\_build\bsp_btn_ble.o: ..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section_iter.h
+.\_build\bsp_btn_ble.o: ..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section.h

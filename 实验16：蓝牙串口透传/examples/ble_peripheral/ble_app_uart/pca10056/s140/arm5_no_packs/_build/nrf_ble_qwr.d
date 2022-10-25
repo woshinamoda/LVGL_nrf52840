@@ -36,4 +36,5 @@
 .\_build\nrf_ble_qwr.o: ..\..\..\..\..\..\components\softdevice\s140\headers\ble_l2cap.h
 .\_build\nrf_ble_qwr.o: ..\..\..\..\..\..\components\softdevice\s140\headers\ble_gatt.h
 .\_build\nrf_ble_qwr.o: ..\..\..\..\..\..\components\softdevice\s140\headers\ble_gattc.h
-.\_build\nrf_ble_qwr.o: ..\..\..
+.\_build\nrf_ble_qwr.o: ..\..\..\..\..\..\components\softdevice\s140\headers\ble_gatts.h
+.\_build\nrf_ble_qwr.o: ..\..\..\..\..\..\components\ble\common\ble_srv_common.h

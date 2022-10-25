@@ -23,4 +23,5 @@
 .\_build\nrf_strerror.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf51_to_nrf52840.h
 .\_build\nrf_strerror.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52_to_nrf52840.h
 .\_build\nrf_strerror.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
-.\_build\nrf_strerror.o: ..\..\..
+.\_build\nrf_strerror.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h
+.\_build\nrf_strerror.o: ..\..\..\..\..\..\components\libraries\strerror\nrf_strerror.h

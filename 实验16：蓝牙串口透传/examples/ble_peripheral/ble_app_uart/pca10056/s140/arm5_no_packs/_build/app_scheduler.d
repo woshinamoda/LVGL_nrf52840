@@ -32,4 +32,5 @@
 .\_build\app_scheduler.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_soc.h
 .\_build\app_scheduler.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_svc.h
 .\_build\app_scheduler.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_error_soc.h
-.\_build\app_scheduler.o: ..\..\..\..\..\
+.\_build\app_scheduler.o: ..\..\..\..\..\..\components\libraries\util\app_util_platform.h
+.\_build\app_scheduler.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_nvic.h

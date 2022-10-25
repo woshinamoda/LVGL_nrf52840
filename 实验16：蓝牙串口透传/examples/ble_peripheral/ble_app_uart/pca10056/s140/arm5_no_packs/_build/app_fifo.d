@@ -24,4 +24,5 @@
 .\_build\app_fifo.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52_to_nrf52840.h
 .\_build\app_fifo.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
 .\_build\app_fifo.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h
-.\_b
+.\_build\app_fifo.o: ..\..\..\..\..\..\components\libraries\fifo\app_fifo.h
+.\_build\app_fifo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

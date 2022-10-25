@@ -17,4 +17,5 @@
 .\_build\app_error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\_build\app_error.o: ..\..\..\..\..\..\components\libraries\util\sdk_errors.h
 .\_build\app_error.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_error.h
-.\_build\app_error.o: ..\..\.
+.\_build\app_error.o: ..\..\..\..\..\..\components\libraries\util\nordic_common.h
+.\_build\app_error.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h

@@ -1270,4 +1270,6 @@ Symbol: __main
       At line 210 in file RTE\Device\nRF52840_xxAA\arm_startup_nrf52840.s
    Uses
       At line 215 in file RTE\Device\nRF52840_xxAA\arm_startup_nrf52840.s
-Comm
+Comment: __main used once
+2 symbols
+425 symbols in table

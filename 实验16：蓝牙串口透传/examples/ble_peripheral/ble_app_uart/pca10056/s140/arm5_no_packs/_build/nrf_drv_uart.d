@@ -44,4 +44,5 @@
 .\_build\nrf_drv_uart.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h
 .\_build\nrf_drv_uart.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_uarte.h
 .\_build\nrf_drv_uart.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_uarte.h
-.\_build\nrf_drv_u
+.\_build\nrf_drv_uart.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_uart.h
+.\_build\nrf_drv_uart.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_uart.h

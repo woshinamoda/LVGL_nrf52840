@@ -30,4 +30,5 @@
 .\_build\nrf_atfifo.o: ..\..\..\..\..\..\components\libraries\util\sdk_common.h
 .\_build\nrf_atfifo.o: ..\..\..\..\..\..\components\libraries\util\sdk_os.h
 .\_build\nrf_atfifo.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
-.\_build\nrf_atfifo.o: ..\..\..\..\..\..\components
+.\_build\nrf_atfifo.o: ..\..\..\..\..\..\components\libraries\strerror\nrf_strerror.h
+.\_build\nrf_atfifo.o: ..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_internal.h

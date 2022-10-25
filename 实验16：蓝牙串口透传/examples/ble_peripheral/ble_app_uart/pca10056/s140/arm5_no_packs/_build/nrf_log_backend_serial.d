@@ -43,4 +43,5 @@
 .\_build\nrf_log_backend_serial.o: ..\..\..\..\..\..\external\fprintf\nrf_fprintf.h
 .\_build\nrf_log_backend_serial.o: ..\..\..\..\..\..\components\libraries\experimental_log\nrf_log_str_formatter.h
 .\_build\nrf_log_backend_serial.o: ..\..\..\..\..\..\components\libraries\experimental_log\nrf_log_ctrl.h
-.\_build\nrf_log_backend_serial.o: ..\..\..\..\..\..\components\libraries\experimental_log\src
+.\_build\nrf_log_backend_serial.o: ..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_ctrl_internal.h
+.\_build\nrf_log_backend_serial.o: ..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_internal.h

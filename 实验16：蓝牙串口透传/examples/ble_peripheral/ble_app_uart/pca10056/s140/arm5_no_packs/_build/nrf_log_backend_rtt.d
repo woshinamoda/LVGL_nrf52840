@@ -60,4 +60,5 @@
 .\_build\nrf_log_backend_rtt.o: ..\..\..\..\..\..\components\libraries\util\sdk_resources.h
 .\_build\nrf_log_backend_rtt.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_sd_def.h
 .\_build\nrf_log_backend_rtt.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h
-.\_build\nrf_log_backend_rtt.o: 
+.\_build\nrf_log_backend_rtt.o: ..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_Conf.h
+.\_build\nrf_log_backend_rtt.o: ..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT.h

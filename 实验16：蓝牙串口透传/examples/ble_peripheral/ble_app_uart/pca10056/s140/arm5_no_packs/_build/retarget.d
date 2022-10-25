@@ -31,4 +31,5 @@
 .\_build\retarget.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_svc.h
 .\_build\retarget.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_error_soc.h
 .\_build\retarget.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_nvic.h
-.\_build\retarget.o: 
+.\_build\retarget.o: ..\..\..\..\..\..\components\libraries\util\app_error.h
+.\_build\retarget.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h

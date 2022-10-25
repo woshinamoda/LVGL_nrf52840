@@ -45,4 +45,5 @@
 .\_build\nrf_log_frontend.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\_build\nrf_log_frontend.o: ..\..\..\..\..\..\components\libraries\balloc\nrf_balloc.h
 .\_build\nrf_log_frontend.o: ..\..\..\..\..\..\components\libraries\experimental_log\nrf_log_str_formatter.h
-.\_build\nrf_log_frontend.o
+.\_build\nrf_log_frontend.o: ..\..\..\..\..\..\external\fprintf\nrf_fprintf.h
+.\_build\nrf_log_frontend.o: ..\..\..\..\..\..\components\libraries\atomic\nrf_atomic.h

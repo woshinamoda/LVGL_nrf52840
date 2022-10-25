@@ -49,4 +49,5 @@
 .\_build\app_button.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h
 .\_build\app_button.o: ..\..\..\..\..\..\components\libraries\timer\app_timer.h
 .\_build\app_button.o: ..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_gpiote.h
-.\_build\app_butt
+.\_build\app_button.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_gpiote.h
+.\_build\app_button.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_gpiote.h

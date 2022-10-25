@@ -47,4 +47,5 @@
 .\_build\ble_advertising.o: ..\..\..\..\..\..\components\libraries\experimental_log\nrf_log_types.h
 .\_build\ble_advertising.o: ..\..\..\..\..\..\components\libraries\fstorage\nrf_fstorage.h
 .\_build\ble_advertising.o: ..\..\..\..\..\..\components\softdevice\common\nrf_sdh_ble.h
-.\_build\ble_advertising.o: ..\..\..\..\..\..\components\librari
+.\_build\ble_advertising.o: ..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section_iter.h
+.\_build\ble_advertising.o: ..\..\..\..\..\..\components\softdevice\common\nrf_sdh_soc.h

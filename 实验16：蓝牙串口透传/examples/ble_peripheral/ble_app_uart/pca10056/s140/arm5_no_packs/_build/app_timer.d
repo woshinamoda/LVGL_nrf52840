@@ -46,4 +46,5 @@
 .\_build\app_timer.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_nvic.h
 .\_build\app_timer.o: ..\..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h
 .\_build\app_timer.o: ..\..\..\..\..\..\components\libraries\util\sdk_resources.h
-.\_build\app_timer.o: ..
+.\_build\app_timer.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_sd_def.h
+.\_build\app_timer.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h

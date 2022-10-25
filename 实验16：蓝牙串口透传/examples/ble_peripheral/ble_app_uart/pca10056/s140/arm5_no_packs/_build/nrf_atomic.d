@@ -24,4 +24,5 @@
 .\_build\nrf_atomic.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf51_to_nrf52840.h
 .\_build\nrf_atomic.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52_to_nrf52840.h
 .\_build\nrf_atomic.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
-.\_build\nrf_atomic.o: ..\..\..\..
+.\_build\nrf_atomic.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h
+.\_build\nrf_atomic.o: ..\..\..\..\..\..\components\libraries\atomic\nrf_atomic_internal.h

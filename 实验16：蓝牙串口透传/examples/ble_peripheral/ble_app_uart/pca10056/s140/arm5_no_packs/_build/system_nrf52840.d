@@ -11,4 +11,5 @@
 .\_build\system_nrf52840.o: ..\..\..\..\..\..\modules\nrfx\mdk\system_nrf52840.h
 .\_build\system_nrf52840.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52840_bitfields.h
 .\_build\system_nrf52840.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf51_to_nrf52840.h
-.\_build\system_nrf52840.o: ..\..\
+.\_build\system_nrf52840.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52_to_nrf52840.h
+.\_build\system_nrf52840.o: ..\..\..\..\..\..\modules\nrfx\mdk\compiler_abstraction.h

@@ -42,4 +42,5 @@
 .\_build\boards.o: ..\..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h
 .\_build\boards.o: ..\..\..\..\..\..\components\libraries\util\sdk_resources.h
 .\_build\boards.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_sd_def.h
-.
+.\_build\boards.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h
+.\_build\boards.o: ..\..\..\..\..\..\components\boards\pca10056.h

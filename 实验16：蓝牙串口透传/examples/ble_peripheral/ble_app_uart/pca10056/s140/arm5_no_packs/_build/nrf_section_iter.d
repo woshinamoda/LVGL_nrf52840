@@ -24,4 +24,5 @@
 .\_build\nrf_section_iter.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52_to_nrf52840.h
 .\_build\nrf_section_iter.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
 .\_build\nrf_section_iter.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h
-.\_build\nrf_section_iter.o: ..\..\..\..\..\..\components\libraries\experimental_sec
+.\_build\nrf_section_iter.o: ..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section_iter.h
+.\_build\nrf_section_iter.o: ..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section.h

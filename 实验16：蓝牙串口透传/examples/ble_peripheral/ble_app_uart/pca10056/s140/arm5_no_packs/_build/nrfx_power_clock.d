@@ -44,4 +44,5 @@
 .\_build\nrfx_power_clock.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_power.h
 .\_build\nrfx_power_clock.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_power.h
 .\_build\nrfx_power_clock.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_power_clock.h
-.\_build\nrfx_power_clock.o:
+.\_build\nrfx_power_clock.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_clock.h
+.\_build\nrfx_power_clock.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_clock.h

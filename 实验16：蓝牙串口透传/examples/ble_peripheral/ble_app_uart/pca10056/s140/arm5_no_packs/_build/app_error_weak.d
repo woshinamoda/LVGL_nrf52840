@@ -44,4 +44,5 @@
 .\_build\app_error_weak.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_svc.h
 .\_build\app_error_weak.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_error_soc.h
 .\_build\app_error_weak.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_nvic.h
-.\_build\app_error_weak.o: ..\..\..\..\..\..\co
+.\_build\app_error_weak.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_sdm.h
+.\_build\app_error_weak.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_error_sdm.h

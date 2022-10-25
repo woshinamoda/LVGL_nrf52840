@@ -26,4 +26,6 @@
 .\_build\segger_rtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\_build\segger_rtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\_build\segger_rtt.o: ..\..\..\..\..\..\components\libraries\util\sdk_errors.h
-.\_build\segger_rtt.o: ..\..\..\..\..\..\components\libraries\
+.\_build\segger_rtt.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h
+.\_build\segger_rtt.o: ..\config\sdk_config.h
+.\_build\segger_rtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

@@ -3414,7 +3414,7 @@
 // <7=> 7 
 
 #ifndef NRFX_SPIM_DEFAULT_CONFIG_IRQ_PRIORITY
-#define NRFX_SPIM_DEFAULT_CONFIG_IRQ_PRIORITY 7
+#define NRFX_SPIM_DEFAULT_CONFIG_IRQ_PRIORITY 6
 #endif
 
 // <e> NRFX_SPIM_CONFIG_LOG_ENABLED - Enables logging in the module.
@@ -3473,13 +3473,13 @@
 // <e> NRFX_SPIS_ENABLED - nrfx_spis - SPIS peripheral driver
 //==========================================================
 #ifndef NRFX_SPIS_ENABLED
-#define NRFX_SPIS_ENABLED 0
+#define NRFX_SPIS_ENABLED 1
 #endif
 // <q> NRFX_SPIS0_ENABLED  - Enable SPIS0 instance
  
 
 #ifndef NRFX_SPIS0_ENABLED
-#define NRFX_SPIS0_ENABLED 0
+#define NRFX_SPIS0_ENABLED 1
 #endif
 
 // <q> NRFX_SPIS1_ENABLED  - Enable SPIS1 instance
@@ -3587,7 +3587,7 @@
  
 
 #ifndef NRFX_SPI0_ENABLED
-#define NRFX_SPI0_ENABLED 0
+#define NRFX_SPI0_ENABLED 1
 #endif
 
 // <q> NRFX_SPI1_ENABLED  - Enable SPI1 instance
@@ -3626,7 +3626,7 @@
 // <7=> 7 
 
 #ifndef NRFX_SPI_DEFAULT_CONFIG_IRQ_PRIORITY
-#define NRFX_SPI_DEFAULT_CONFIG_IRQ_PRIORITY 7
+#define NRFX_SPI_DEFAULT_CONFIG_IRQ_PRIORITY 6
 #endif
 
 // <e> NRFX_SPI_CONFIG_LOG_ENABLED - Enables logging in the module.
@@ -5334,7 +5334,7 @@
 // <7=> 7 
 
 #ifndef SPI_DEFAULT_CONFIG_IRQ_PRIORITY
-#define SPI_DEFAULT_CONFIG_IRQ_PRIORITY 7
+#define SPI_DEFAULT_CONFIG_IRQ_PRIORITY 6
 #endif
 
 // <o> NRF_SPI_DRV_MISO_PULLUP_CFG  - MISO PIN pull-up configuration.

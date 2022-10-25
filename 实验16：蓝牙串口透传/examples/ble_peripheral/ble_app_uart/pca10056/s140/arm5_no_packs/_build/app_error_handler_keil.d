@@ -25,4 +25,5 @@
 .\_build\app_error_handler_keil.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
 .\_build\app_error_handler_keil.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h
 .\_build\app_error_handler_keil.o: ..\..\..\..\..\..\components\libraries\util\app_error.h
-.\_build\app_error_handler_keil.o: C:
+.\_build\app_error_handler_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\_build\app_error_handler_keil.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h

@@ -22,4 +22,5 @@
 .\_build\hardfault_implementation.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52840_bitfields.h
 .\_build\hardfault_implementation.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf51_to_nrf52840.h
 .\_build\hardfault_implementation.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52_to_nrf52840.h
-.\_build\hardfault_implementation.o: ..\..\..\..\..
+.\_build\hardfault_implementation.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
+.\_build\hardfault_implementation.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h

@@ -61,4 +61,5 @@
 .\_build\nrf_pwr_mgmt.o: ..\..\..\..\..\..\components\libraries\experimental_log\nrf_log_instance.h
 .\_build\nrf_pwr_mgmt.o: ..\..\..\..\..\..\components\libraries\experimental_log\nrf_log.h
 .\_build\nrf_pwr_mgmt.o: ..\..\..\..\..\..\components\libraries\strerror\nrf_strerror.h
-.\_build\nrf_pwr_mgmt.o: ..\..\..\..\..\..\comp
+.\_build\nrf_pwr_mgmt.o: ..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_internal.h
+.\_build\nrf_pwr_mgmt.o: ..\..\..\..\..\..\components\softdevice\common\nrf_sdh.h

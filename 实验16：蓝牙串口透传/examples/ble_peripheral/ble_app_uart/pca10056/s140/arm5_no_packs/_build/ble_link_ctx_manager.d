@@ -36,4 +36,5 @@
 .\_build\ble_link_ctx_manager.o: ..\..\..\..\..\..\components\libraries\util\sdk_errors.h
 .\_build\ble_link_ctx_manager.o: ..\..\..\..\..\..\components\libraries\util\app_util.h
 .\_build\ble_link_ctx_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\_build\ble_link_ctx_manager.o: ..\..\..\.
+.\_build\ble_link_ctx_manager.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
+.\_build\ble_link_ctx_manager.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h

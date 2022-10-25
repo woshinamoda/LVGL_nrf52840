@@ -51,4 +51,5 @@
 .\_build\app_uart_fifo.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h
 .\_build\app_uart_fifo.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_uarte.h
 .\_build\app_uart_fifo.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_uarte.h
-.\_build\app_uart_
+.\_build\app_uart_fifo.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_uart.h
+.\_build\app_uart_fifo.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_uart.h

@@ -46,4 +46,5 @@
 .\_build\bsp.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h
 .\_build\bsp.o: ..\..\..\..\..\..\components\boards\pca10056.h
 .\_build\bsp.o: ..\..\..\..\..\..\components\libraries\button\app_button.h
-.\_build
+.\_build\bsp.o: ..\..\..\..\..\..\components\libraries\bsp\bsp_config.h
+.\_build\bsp.o: ..\..\..\..\..\..\components\libraries\timer\app_timer.h

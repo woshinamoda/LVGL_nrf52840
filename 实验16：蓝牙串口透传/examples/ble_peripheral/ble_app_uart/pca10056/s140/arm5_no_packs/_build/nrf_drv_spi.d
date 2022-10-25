@@ -44,4 +44,5 @@
 .\_build\nrf_drv_spi.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h
 .\_build\nrf_drv_spi.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_spim.h
 .\_build\nrf_drv_spi.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_spim.h
-.\_build\nrf_d
+.\_build\nrf_drv_spi.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_spi.h
+.\_build\nrf_drv_spi.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_spi.h

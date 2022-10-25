@@ -101,4 +101,6 @@
 .\_build\main.o: ..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_spi.h
 .\_build\main.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_spim.h
 .\_build\main.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_spim.h
-.\_build\main.o: ..\..\..\..\..\..\modules\nrfx\drive
+.\_build\main.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_spi.h
+.\_build\main.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_spi.h
+.\_build\main.o: ..\..\..\..\..\..\Application\main.h

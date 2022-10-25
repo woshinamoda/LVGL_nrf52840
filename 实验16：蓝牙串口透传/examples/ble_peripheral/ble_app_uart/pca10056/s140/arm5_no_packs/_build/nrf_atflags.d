@@ -24,4 +24,5 @@
 .\_build\nrf_atflags.o: ..\..\..\..\..\..\components\libraries\util\app_util.h
 .\_build\nrf_atflags.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\_build\nrf_atflags.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
-.\_build\nrf_atflags.o: ..\..\..\.
+.\_build\nrf_atflags.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h
+.\_build\nrf_atflags.o: ..\..\..\..\..\..\components\libraries\atomic_flags\nrf_atflags.h

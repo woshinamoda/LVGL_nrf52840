@@ -24,7 +24,7 @@ void hal_spi_init(void)
     spi_config.miso_pin = NRF_DRV_SPI_PIN_NOT_USED;
     spi_config.mosi_pin = LCD_SDA;
     spi_config.sck_pin  = LCD_CLK;
-	  spi_config.frequency = NRF_DRV_SPI_FREQ_8M;
+	  spi_config.frequency = NRF_DRV_SPI_FREQ_2M;
     APP_ERROR_CHECK(nrf_drv_spi_init(&spi, &spi_config, spi_event_handler, NULL));	
 }
 
@@ -32,20 +32,9 @@ void hal_spi_init(void)
 uint16_t POINT_COLOR=0x0000;	//画笔颜色
 uint16_t BACK_COLOR=0xFFFF;  //背景色 
 
-//管理LCD重要参数
-//	lcddev.width=128;
-//	lcddev.height=160;
-//	lcddev.wramcmd=0X2C;
-//	lcddev.setxcmd=0X2A;
-//	lcddev.setycmd=0X2B; 	
 
 
-_lcd_dev lcddev = {	128,
-										160,
-										0x2C,
-										0x2A,
-										0x2B,
-};
+_lcd_dev lcddev;
 	
 
 //写寄存器函数
@@ -143,7 +132,11 @@ void LCD_Init(void)
   SPILCD_RST_SET ;	//LCD_RST=1		
 	nrf_delay_ms(50);
 
-
+	lcddev.width=128;
+	lcddev.height=160;
+	lcddev.wramcmd=0X2C;
+	lcddev.setxcmd=0X2A;
+	lcddev.setycmd=0X2B; 	
 
 	LCD_WR_REG(0x11); //Sleep out
 	nrf_delay_ms(120); //Delay 120ms
@@ -226,7 +219,7 @@ void LCD_Init(void)
 	LCD_WR_DATA8(0x05);
 	LCD_WR_REG(0x29); //Display on
 
-	LCD_Clear(YELLOW); 
+	LCD_Clear(BLACK); 
 	
 }  
 //清屏函数

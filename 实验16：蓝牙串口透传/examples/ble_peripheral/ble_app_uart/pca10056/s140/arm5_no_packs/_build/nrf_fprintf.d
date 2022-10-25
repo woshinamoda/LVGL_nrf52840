@@ -25,4 +25,5 @@
 .\_build\nrf_fprintf.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h
 .\_build\nrf_fprintf.o: ..\..\..\..\..\..\components\libraries\util\nrf_assert.h
 .\_build\nrf_fprintf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\_build\nrf_fp
+.\_build\nrf_fprintf.o: ..\..\..\..\..\..\external\fprintf\nrf_fprintf_format.h
+.\_build\nrf_fprintf.o: ..\..\..\..\..\..\external\fprintf\nrf_fprintf.h

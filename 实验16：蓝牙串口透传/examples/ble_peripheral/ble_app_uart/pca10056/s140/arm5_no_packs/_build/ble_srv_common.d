@@ -32,4 +32,5 @@
 .\_build\ble_srv_common.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\_build\ble_srv_common.o: ..\..\..\..\..\..\components\libraries\util\app_error.h
 .\_build\ble_srv_common.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\_build\ble_srv_common.o: ..\..\.
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\components\libraries\util\sdk_errors.h
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h

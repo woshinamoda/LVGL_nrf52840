@@ -45,4 +45,5 @@
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\libraries\timer\app_timer.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\libraries\util\app_error.h
-.\_build\ble_conn_para
+.\_build\ble_conn_params.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\_build\ble_conn_params.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h

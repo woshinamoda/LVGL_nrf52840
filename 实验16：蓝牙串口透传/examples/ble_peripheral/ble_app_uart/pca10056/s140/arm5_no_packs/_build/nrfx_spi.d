@@ -39,4 +39,5 @@
 .\_build\nrfx_spi.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h
 .\_build\nrfx_spi.o: ..\..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h
 .\_build\nrfx_spi.o: ..\..\..\..\..\..\components\libraries\util\sdk_resources.h
-.\_build\nrfx_spi.o: ..\
+.\_build\nrfx_spi.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_sd_def.h
+.\_build\nrfx_spi.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h

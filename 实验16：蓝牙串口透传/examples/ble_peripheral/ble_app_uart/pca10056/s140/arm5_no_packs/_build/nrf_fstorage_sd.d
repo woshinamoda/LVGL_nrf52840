@@ -40,4 +40,5 @@
 .\_build\nrf_fstorage_sd.o: ..\..\..\..\..\..\components\libraries\util\app_util_platform.h
 .\_build\nrf_fstorage_sd.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_nvic.h
 .\_build\nrf_fstorage_sd.o: ..\..\..\..\..\..\components\libraries\util\app_error.h
-.\_build\nrf_fstorage_s
+.\_build\nrf_fstorage_sd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\_build\nrf_fstorage_sd.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h

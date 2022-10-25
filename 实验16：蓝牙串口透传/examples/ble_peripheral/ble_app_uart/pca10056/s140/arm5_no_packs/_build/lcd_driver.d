@@ -99,4 +99,5 @@
 .\_build\lcd_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\_build\lcd_driver.o: ..\..\..\..\..\..\components\libraries\balloc\nrf_balloc.h
 .\_build\lcd_driver.o: ..\..\..\..\..\..\components\libraries\experimental_log\nrf_log_default_backends.h
-.\_build\lcd_d
+.\_build\lcd_driver.o: ..\..\..\..\..\..\components\ble\ble_services\ble_dfu\ble_dfu.h
+.\_build\lcd_driver.o: ..\..\..\..\..\..\Application\Lcd_Driver.h

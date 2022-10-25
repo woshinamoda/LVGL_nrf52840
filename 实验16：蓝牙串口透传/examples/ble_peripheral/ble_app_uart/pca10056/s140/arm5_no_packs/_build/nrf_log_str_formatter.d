@@ -43,4 +43,5 @@
 .\_build\nrf_log_str_formatter.o: ..\..\..\..\..\..\components\libraries\util\app_error_weak.h
 .\_build\nrf_log_str_formatter.o: ..\..\..\..\..\..\components\libraries\experimental_log\nrf_log_instance.h
 .\_build\nrf_log_str_formatter.o: ..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section.h
-.\_build\nrf_log_str_formatter.o: ..\..\..\..\..\..
+.\_build\nrf_log_str_formatter.o: ..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_internal.h
+.\_build\nrf_log_str_formatter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h

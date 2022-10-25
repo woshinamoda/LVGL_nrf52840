@@ -37,4 +37,5 @@
 .\_build\nrf_memobj.o: ..\..\..\..\..\..\components\libraries\atomic\nrf_atomic.h
 .\_build\nrf_memobj.o: ..\..\..\..\..\..\components\libraries\util\sdk_common.h
 .\_build\nrf_memobj.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\_build\nrf_memo
+.\_build\nrf_memobj.o: ..\..\..\..\..\..\components\libraries\util\sdk_os.h
+.\_build\nrf_memobj.o: ..\..\..\..\..\..\components\libraries\util\sdk_macros.h

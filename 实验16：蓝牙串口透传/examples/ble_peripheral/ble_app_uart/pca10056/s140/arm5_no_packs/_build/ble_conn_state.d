@@ -46,4 +46,5 @@
 .\_build\ble_conn_state.o: ..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section.h
 .\_build\ble_conn_state.o: ..\..\..\..\..\..\components\libraries\util\app_util_platform.h
 .\_build\ble_conn_state.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_soc.h
-.\_build\ble_conn_state.o: ..\..\..\..\..\..\comp
+.\_build\ble_conn_state.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_error_soc.h
+.\_build\ble_conn_state.o: ..\..\..\..\..\..\components\softdevice\s140\headers\nrf_nvic.h
