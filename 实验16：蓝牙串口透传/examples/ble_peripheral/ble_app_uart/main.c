@@ -33,7 +33,13 @@
 #include "ble_dfu.h"
 #include "main.h"
 
+#include "lvgl.h"
+#include "lv_port_disp.h"
 
+void lvgl_first_demo_start();
+
+
+APP_TIMER_DEF(m_app_timer_id);																				//新增周期定时器实例
 BLE_NUS_DEF(m_nus, NRF_SDH_BLE_TOTAL_LINK_COUNT);                                   /**< BLE NUS service instance. */
 NRF_BLE_GATT_DEF(m_gatt);                                                           /**< GATT module instance. */
 NRF_BLE_QWR_DEF(m_qwr);                                                             /**< Context for the Queued Write module.*/
@@ -45,6 +51,21 @@ static ble_uuid_t m_adv_uuids[]          =                                      
 {
     {BLE_UUID_NUS_SERVICE, NUS_SERVICE_UUID_TYPE}
 };
+
+static void Nordic_period_timeout_handle(void * p_context)													/* APP定时器回调函数*/
+{
+	lv_task_handler();
+}
+#define	period_TIMER_INTERVAL				APP_TIMER_TICKS(1)				//周期定时器时间间隔
+void period_timers_start(void)
+{
+	uint32_t	err_code;
+	
+	err_code =	app_timer_start(m_app_timer_id, period_TIMER_INTERVAL, NULL);
+	APP_ERROR_CHECK(err_code);
+}
+
+
 
 
 
@@ -58,6 +79,10 @@ static void timers_init(void)//定时器初始化
 {
     ret_code_t err_code = app_timer_init();
     APP_ERROR_CHECK(err_code);
+	
+	  err_code = app_timer_create(&m_app_timer_id, APP_TIMER_MODE_REPEATED, Nordic_period_timeout_handle);
+    APP_ERROR_CHECK(err_code);		
+	
 }
 
 
@@ -559,18 +584,54 @@ int main(void)
     advertising_start();
 	  tx_power_set();
 
+		period_timers_start();
+
 		nrf_gpio_cfg_output(LCD_DC);
 		nrf_gpio_cfg_output(LCD_RST);
 		nrf_delay_ms(200);
 		LCD_Init();
 
+	
+		lv_init();
+		lv_port_disp_init();		
 		
-    // Enter main loop.
-    for (;;)
-    {
-
-    }
+		lvgl_first_demo_start();
+		while(1)
+		{
+			lv_task_handler();
+		}
 }
+
+
+void lvgl_first_demo_start()
+{
+	lv_obj_t * btn = lv_btn_create(lv_scr_act(), NULL);
+	lv_obj_set_pos(btn, 10, 10);
+	lv_obj_set_size(btn, 120, 50);
+	
+	lv_obj_t * label = lv_label_create(btn, NULL);
+	lv_label_set_text(label, "buttomn");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
