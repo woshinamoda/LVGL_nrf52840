@@ -1,0 +1,70 @@
+Dependencies for Project 'ble_app_uart_pca10056_s140', Target 'flash_s140_nrf52_6.0.0_softdevice': (DO NOT MODIFY !)
+F (..\..\..\main.c)(0x6356A5DE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s140_nrf52_6.0.0_softdevice-IE:\MDK534\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-IE:\MDK534\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o ..\..\..\..\..\..\components\softdevice\s140\hex\main.o --omf_browse ..\..\..\..\..\..\components\softdevice\s140\hex\main.crf --depend ..\..\..\..\..\..\components\softdevice\s140\hex\main.d)
+I (E:\MDK534\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (E:\MDK534\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\config\sdk_config.h)(0x6356A3AC)()
+F (..\..\..\..\..\..\components\boards\boards.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\bsp\bsp.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\bsp\bsp_btn_ble.c)(0x5AEC5C69)()
+F (..\..\..\..\..\..\components\ble\common\ble_advdata.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\ble\ble_advertising\ble_advertising.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\ble\common\ble_conn_params.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\ble\common\ble_conn_state.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\ble\ble_link_ctx_manager\ble_link_ctx_manager.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\ble\common\ble_srv_common.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\ble\nrf_ble_gatt\nrf_ble_gatt.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\ble\nrf_ble_qwr\nrf_ble_qwr.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\ble\ble_services\ble_nus\ble_nus.c)(0x5BB812F7)()
+F (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_clock.c)(0x5AB3BCC8)()
+F (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_uart.c)(0x5AB3BCC8)()
+F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_clock.c)(0x5AB3BCC8)()
+F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_gpiote.c)(0x5AB3BCC8)()
+F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_power_clock.c)(0x5AB3BCC8)()
+F (..\..\..\..\..\..\modules\nrfx\drivers\src\prs\nrfx_prs.c)(0x5AB3BCC8)()
+F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_uart.c)(0x5AB3BCC8)()
+F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_uarte.c)(0x5AB3BCC8)()
+F (..\..\..\..\..\..\components\libraries\button\app_button.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\util\app_error.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\util\app_error_handler_keil.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\util\app_error_weak.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\fifo\app_fifo.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\scheduler\app_scheduler.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\timer\app_timer.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\uart\app_uart_fifo.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\util\app_util_platform.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\hardfault\hardfault_implementation.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\util\nrf_assert.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\atomic_fifo\nrf_atfifo.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\atomic_flags\nrf_atflags.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\atomic\nrf_atomic.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\balloc\nrf_balloc.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\external\fprintf\nrf_fprintf.c)(0x5AB3BCC8)()
+F (..\..\..\..\..\..\external\fprintf\nrf_fprintf_format.c)(0x5AB38D03)()
+F (..\..\..\..\..\..\components\libraries\fstorage\nrf_fstorage.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\fstorage\nrf_fstorage_sd.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\experimental_memobj\nrf_memobj.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\pwr_mgmt\nrf_pwr_mgmt.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section_iter.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\strerror\nrf_strerror.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\uart\retarget.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_backend_rtt.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_backend_serial.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_default_backends.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_frontend.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_str_formatter.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT.c)(0x5AB38D03)()
+F (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_Syscalls_KEIL.c)(0x5AB38D03)()
+F (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_printf.c)(0x5AB38D03)()
+F (..\..\..\..\..\..\components\softdevice\common\nrf_sdh.c)(0x5AC62395)()
+F (..\..\..\..\..\..\components\softdevice\common\nrf_sdh_ble.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\components\softdevice\common\nrf_sdh_soc.c)(0x5AB3BCC3)()
+F (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_spi.c)(0x5AB3BCC8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s140_nrf52_6.0.0_softdevice-IE:\MDK534\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-IE:\MDK534\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o ..\..\..\..\..\..\components\softdevice\s140\hex\nrf_drv_spi.o --omf_browse ..\..\..\..\..\..\components\softdevice\s140\hex\nrf_drv_spi.crf --depend ..\..\..\..\..\..\components\softdevice\s140\hex\nrf_drv_spi.d)
+I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_spi.h)(0x5AB3BCC8)
+F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_spi.c)(0x5AB3BCC8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s140_nrf52_6.0.0_softdevice-IE:\MDK534\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-IE:\MDK534\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o ..\..\..\..\..\..\components\softdevice\s140\hex\nrfx_spi.o --omf_browse ..\..\..\..\..\..\components\softdevice\s140\hex\nrfx_spi.crf --depend ..\..\..\..\..\..\components\softdevice\s140\hex\nrfx_spi.d)
+F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_spim.c)(0x5AB3BCC8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s140_nrf52_6.0.0_softdevice-IE:\MDK534\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-IE:\MDK534\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o ..\..\..\..\..\..\components\softdevice\s140\hex\nrfx_spim.o --omf_browse ..\..\..\..\..\..\components\softdevice\s140\hex\nrfx_spim.crf --depend ..\..\..\..\..\..\components\softdevice\s140\hex\nrfx_spim.d)
+F (..\..\..\..\..\..\Application\Lcd_Driver.c)(0x6356A610)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths-I.\RTE\_flash_s140_nrf52_6.0.0_softdevice-IE:\MDK534\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-IE:\MDK534\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o ..\..\..\..\..\..\components\softdevice\s140\hex\lcd_driver.o --omf_browse ..\..\..\..\..\..\components\softdevice\s140\hex\lcd_driver.crf --depend ..\..\..\..\..\..\components\softdevice\s140\hex\lcd_driver.d)
+I (..\..\..\..\..\..\Application\Lcd_Driver.h)(0x6356A4F6)
+I (E:\MDK534\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+F (RTE\Device\nRF52840_xxAA\arm_startup_nrf52840.s)(0x5AA0AEBA)()
+F (RTE\Device\nRF52840_xxAA\system_nrf52.c)(0x609E277A)()
+F (RTE\Device\nRF52840_xxAA\system_nrf52840.c)(0x5AA0AEAA)()

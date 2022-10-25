@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: li wang, ZY, LIC=BUUDY-IN85V-8FMIE-5RHN6-NU0XX-H14UA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.27.1.0
+Toolchain Path:  E:\MDK534\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      Segger\JL2CM3.dll V2.99.35.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+E:\GithubUserFileProgram\实验16：蓝牙串口透传\examples\ble_peripheral\ble_app_uart\pca10056\s140\arm5_no_packs\ble_app_uart_pca10056_s140.uvprojx
+Project File Date:  10/24/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\MDK534\ARM\ARMCC\Bin'
+Build target 'flash_s140_nrf52_6.0.0_softdevice'
+Before Build - User command #1: attrib +R ..\..\..\..\..\..\components\softdevice\s140\hex\\*
+compiling nrf_drv_spi.c...
+..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_spi.h(44): error:  #5: cannot open source input file "nrfx.h": No such file or directory
+  #include <nrfx.h>
+..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_spi.c: 0 warnings, 1 error
+compiling nrfx_spim.c...
+..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_spim.c(41): error:  #5: cannot open source input file "nrfx.h": No such file or directory
+  #include <nrfx.h>
+..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_spim.c: 0 warnings, 1 error
+compiling Lcd_Driver.c...
+..\..\..\..\..\..\Application\Lcd_Driver.h(4): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+  #include "nrf_gpio.h"
+..\..\..\..\..\..\Application\Lcd_Driver.c: 0 warnings, 1 error
+compiling nrfx_spi.c...
+..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_spi.c(41): error:  #5: cannot open source input file "nrfx.h": No such file or directory
+  #include <nrfx.h>
+..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_spi.c: 0 warnings, 1 error
+compiling main.c...
+..\..\..\main.c(54): error:  #5: cannot open source input file "nordic_common.h": No such file or directory
+  #include "nordic_common.h"
+..\..\..\main.c: 0 warnings, 1 error
+"..\..\..\..\..\..\components\softdevice\s140\hex\s140_nrf52_6.0.0_softdevice.hex" - 5 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.40.3.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.40.3
+                Nordic Semiconductor nRF ARM devices Device Family Pack with BSD license.
+   * Component: Startup Version: 8.40.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_flash_s140_nrf52_6.0.0_softdevice
+  E:\MDK534\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: NordicSemiconductor::Device:Startup:8.40.3
+      Source file:   Device\Source\arm\arm_startup_nrf52840.s
+      Include file:  Device\Include\system_nrf.h
+      Source file:   Device\Source\system_nrf52.c
+      Include file:  Device\Include\system_nrf52840.h
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

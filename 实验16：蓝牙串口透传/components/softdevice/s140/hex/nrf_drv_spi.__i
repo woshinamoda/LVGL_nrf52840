@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths
+-I.\RTE\_flash_s140_nrf52_6.0.0_softdevice
+-IE:\MDK534\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include
+-IE:\MDK534\ARM\CMSIS\Include
+-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"
+-o ..\..\..\..\..\..\components\softdevice\s140\hex\nrf_drv_spi.o --omf_browse ..\..\..\..\..\..\components\softdevice\s140\hex\nrf_drv_spi.crf --depend ..\..\..\..\..\..\components\softdevice\s140\hex\nrf_drv_spi.d "..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_spi.c"
